@@ -1,0 +1,328 @@
+{
+  "listeners": 4032,
+  "groups": 42,
+  "listeners_per_group": 96,
+  "original_events": 3714102,
+  "pairs": 378,
+  "worlds": 756,
+  "mean_block_auc": 1.0,
+  "pooled_auc": 1.0,
+  "treatment_alerts": 378,
+  "treatments": 378,
+  "control_alerts": 0,
+  "controls": 378,
+  "uncertainty": {
+    "auc_mean_ci95": [
+      1.0,
+      1.0
+    ],
+    "block_mean_control_upper95": 0.0,
+    "conditional_only": true,
+    "control_mean_ci95": [
+      0.0,
+      0.0
+    ],
+    "detection_mean_ci95": [
+      1.0,
+      1.0
+    ]
+  },
+  "blocks": [
+    {
+      "block": 0,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 1,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 2,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 3,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 4,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 5,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 6,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 7,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 8,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 9,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 10,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 11,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 12,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 13,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 14,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 15,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 16,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 17,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 18,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 19,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 20,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 21,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 22,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 23,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 24,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 25,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 26,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 27,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 28,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 29,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 30,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 31,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 32,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 33,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 34,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 35,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 36,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 37,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 38,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 39,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 40,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    },
+    {
+      "block": 41,
+      "treatment_detection": 1.0,
+      "control_alert_rate": 0.0,
+      "auc": 1.0,
+      "worlds_per_arm": 9
+    }
+  ],
+  "source": "Phase 12B corrected verification receipt; immutable aggregate transcription",
+  "label_scope": "Real observed listening histories; controlled intervention labels."
+}

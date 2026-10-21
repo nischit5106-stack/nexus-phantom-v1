@@ -1,0 +1,2301 @@
+[
+  {
+    "claim_id": "C01",
+    "claim_text": "The source audit covered 704,728,520 listening events from 3,444,027 users and 43,803 observed tracks.",
+    "source": "S5ddb053d0a:PHANTOM_Data_Audit_v1.md",
+    "source_locator": {
+      "lines": [
+        9
+      ],
+      "literal": "704,728,520 observed"
+    },
+    "source_sha256": "79391605feae3a4f28f1272ff9428bedbb02a3c92d4305bd6d2ae340a8337fb4",
+    "phase": "1-4",
+    "denominator": "full released event corpus",
+    "evaluation_population": "Deezer March\u2013August 2022",
+    "result": "The source audit covered 704,728,520 listening events from 3,444,027 users and 43,803 observed tracks.",
+    "limitation": "Audit scale is not final-detector throughput; selected catalog and released histories.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "r\u00e9sum\u00e9",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C02",
+    "claim_text": "The release contains 500 event Parquet files and a separate 50,000-row embedding file.",
+    "source": "S5ddb053d0a:PHANTOM_Data_Audit_v1.md",
+    "source_locator": {
+      "lines": [
+        9
+      ],
+      "literal": "500 event Parquet"
+    },
+    "source_sha256": "79391605feae3a4f28f1272ff9428bedbb02a3c92d4305bd6d2ae340a8337fb4",
+    "phase": "1-4",
+    "denominator": "501 files",
+    "evaluation_population": "Deezer release",
+    "result": "The release contains 500 event Parquet files and a separate 50,000-row embedding file.",
+    "limitation": "Embedding count differs from observed item count; embeddings not used by accepted detector.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C03",
+    "claim_text": "The audit found 2,435,880 excess exact-duplicate records (0.3456%).",
+    "source": "S5ddb053d0a:PHANTOM_Data_Audit_v1.md",
+    "source_locator": {
+      "lines": [
+        17
+      ],
+      "literal": "2,435,880"
+    },
+    "source_sha256": "79391605feae3a4f28f1272ff9428bedbb02a3c92d4305bd6d2ae340a8337fb4",
+    "phase": "1-4",
+    "denominator": "704,728,520 records",
+    "evaluation_population": "Deezer release",
+    "result": "The audit found 2,435,880 excess exact-duplicate records (0.3456%).",
+    "limitation": "Source duplicates retained; semantic presence handled separately.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C04",
+    "claim_text": "Every supplied source session contains ten records; these blocks are not validated natural listening sessions.",
+    "source": "S5ddb053d0a:PHANTOM_Data_Audit_v1.md",
+    "source_locator": {
+      "lines": [
+        15
+      ],
+      "literal": "Every source session"
+    },
+    "source_sha256": "79391605feae3a4f28f1272ff9428bedbb02a3c92d4305bd6d2ae340a8337fb4",
+    "phase": "1-4",
+    "denominator": "70,472,852 source sessions",
+    "evaluation_population": "Deezer release",
+    "result": "Every supplied source session contains ten records; these blocks are not validated natural listening sessions.",
+    "limitation": "Unknown selection mechanism prevents complete-history claims.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C05",
+    "claim_text": "The development sample contains 671,410 rows from 3,252 complete release-relative user histories.",
+    "source": "S5ddb053d0a:PHANTOM_Data_Audit_v1.md",
+    "source_locator": {
+      "lines": [
+        33
+      ],
+      "literal": "671,410"
+    },
+    "source_sha256": "79391605feae3a4f28f1272ff9428bedbb02a3c92d4305bd6d2ae340a8337fb4",
+    "phase": "1-4",
+    "denominator": "3,252 users",
+    "evaluation_population": "Deezer development sample",
+    "result": "The development sample contains 671,410 rows from 3,252 complete release-relative user histories.",
+    "limitation": "Complete within release, not every real listen.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C06",
+    "claim_text": "External-population validation used 4,032 ListenBrainz listeners in 42 disjoint groups, retaining 4,004,802 original events.",
+    "source": "Sbcacb44ab1:PHANTOM_Phase4_12_External_Validation_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        21,
+        141
+      ],
+      "literal": "4,032"
+    },
+    "source_sha256": "339d583273c52d2eb12e6a14eb81a378952f01407caa3b4e831ddad3824ad14c",
+    "phase": "4.12",
+    "denominator": "42 groups of 96",
+    "evaluation_population": "ListenBrainz snapshot 2723, May 1\u201329 2022 UTC",
+    "result": "External-population validation used 4,032 ListenBrainz listeners in 42 disjoint groups, retaining 4,004,802 original events.",
+    "limitation": "Controlled planted coordination; no fraud labels.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "r\u00e9sum\u00e9",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C07",
+    "claim_text": "The controlled external benchmark contains 378 treatment/control pairs and 756 worlds.",
+    "source": "Sbcacb44ab1:PHANTOM_Phase4_12_External_Validation_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        26
+      ],
+      "literal": "378 treatment/control pairs"
+    },
+    "source_sha256": "339d583273c52d2eb12e6a14eb81a378952f01407caa3b4e831ddad3824ad14c",
+    "phase": "4.12",
+    "denominator": "42 groups \u00d7 3 seeds \u00d7 3 levels",
+    "evaluation_population": "ListenBrainz external benchmark",
+    "result": "The controlled external benchmark contains 378 treatment/control pairs and 756 worlds.",
+    "limitation": "Replicas share source histories and seeds; worlds are not independent listeners.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C08",
+    "claim_text": "The frozen relational detector achieved AUC 1.000 under controlled planted coordination on the external ListenBrainz population.",
+    "source": "Sebec82a222:frozen_results.json",
+    "source_locator": {
+      "json_pointer": "/auc",
+      "value": 1.0
+    },
+    "source_sha256": "8a3860e2fec56902bdad377c6e68a931e1267891f6f3dbaf94acc3bcf02cc0c1",
+    "phase": "4.12",
+    "denominator": "378 treatment and 378 control worlds",
+    "evaluation_population": "ListenBrainz external benchmark",
+    "result": "The frozen relational detector achieved AUC 1.000 under controlled planted coordination on the external ListenBrainz population.",
+    "limitation": "Ranking of benchmark conditions; not real-world fraud accuracy.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "r\u00e9sum\u00e9",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C09",
+    "claim_text": "Treatment detection was 100% on the controlled external benchmark.",
+    "source": "Sebec82a222:frozen_results.json",
+    "source_locator": {
+      "json_pointer": "/treatment_detection",
+      "value": 1.0
+    },
+    "source_sha256": "8a3860e2fec56902bdad377c6e68a931e1267891f6f3dbaf94acc3bcf02cc0c1",
+    "phase": "4.12",
+    "denominator": "378 treatment worlds",
+    "evaluation_population": "ListenBrainz external benchmark",
+    "result": "Treatment detection was 100% on the controlled external benchmark.",
+    "limitation": "Narrow visible schedule; no real fraud ground truth.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C10",
+    "claim_text": "There were 0/378 control alerts in the controlled external benchmark.",
+    "source": "Sebec82a222:frozen_results.json",
+    "source_locator": {
+      "json_pointer": "/control_alerts",
+      "value": 0
+    },
+    "source_sha256": "8a3860e2fec56902bdad377c6e68a931e1267891f6f3dbaf94acc3bcf02cc0c1",
+    "phase": "4.12",
+    "denominator": "378 controls in 42 groups",
+    "evaluation_population": "ListenBrainz external benchmark",
+    "result": "There were 0/378 control alerts in the controlled external benchmark.",
+    "limitation": "Zero observed alerts does not establish zero population or production risk.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "r\u00e9sum\u00e9",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C11",
+    "claim_text": "The worst observed group control-alert rate was 0%.",
+    "source": "Sebec82a222:frozen_results.json",
+    "source_locator": {
+      "json_pointer": "/worst_block_control_alert_rate",
+      "value": 0.0
+    },
+    "source_sha256": "8a3860e2fec56902bdad377c6e68a931e1267891f6f3dbaf94acc3bcf02cc0c1",
+    "phase": "4.12",
+    "denominator": "42 groups, 9 controls each",
+    "evaluation_population": "ListenBrainz external benchmark",
+    "result": "The worst observed group control-alert rate was 0%.",
+    "limitation": "One source collection and period; dependent replicated worlds.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C12",
+    "claim_text": "The relational score uses 4,095 local-null draws and alerts at robust_excess >= 3.0.",
+    "source": "Sbcacb44ab1:PHANTOM_Phase4_12_External_Validation_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        42
+      ],
+      "literal": "4,095"
+    },
+    "source_sha256": "339d583273c52d2eb12e6a14eb81a378952f01407caa3b4e831ddad3824ad14c",
+    "phase": "4.12",
+    "denominator": "4,095 draws per local ensemble",
+    "evaluation_population": "Frozen Phase 4.11/4.12 algorithm",
+    "result": "The relational score uses 4,095 local-null draws and alerts at robust_excess >= 3.0.",
+    "limitation": "Median/MAD standardized score is not a Gaussian probability.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C13",
+    "claim_text": "The external benchmark uses recording MSIDs; 1,391,257 selected keys are not certified unique audio recordings.",
+    "source": "Sbcacb44ab1:PHANTOM_Phase4_12_External_Validation_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        23
+      ],
+      "literal": "1,391,257"
+    },
+    "source_sha256": "339d583273c52d2eb12e6a14eb81a378952f01407caa3b4e831ddad3824ad14c",
+    "phase": "4.12",
+    "denominator": "selected original item keys",
+    "evaluation_population": "ListenBrainz external sample",
+    "result": "The external benchmark uses recording MSIDs; 1,391,257 selected keys are not certified unique audio recordings.",
+    "limitation": "Identifier granularity and snapshot coverage limit generalization.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C14",
+    "claim_text": "Historical internal-holdout member precision was 0.9167 (rounded).",
+    "source": "S61a35c7545:summary.json",
+    "source_locator": {
+      "json_pointer": "/member_precision",
+      "value": 0.9166666666666666
+    },
+    "source_sha256": "090b2e34b4ce4da6c5990e7380f165f31fe49eb6f2756a42056ab8fc72bbb98e",
+    "phase": "5.1",
+    "denominator": "168 original treatment parents in 84 treatment worlds; 2 source blocks",
+    "evaluation_population": "Phase 5.1 historical internal holdout",
+    "result": "Historical internal-holdout member precision was 0.9167 (rounded).",
+    "limitation": "Consumed internal evidence, not fresh external validation; macro parent metrics.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C15",
+    "claim_text": "Historical internal-holdout member recall was 0.9167 (rounded).",
+    "source": "S61a35c7545:summary.json",
+    "source_locator": {
+      "json_pointer": "/member_recall",
+      "value": 0.9166666666666666
+    },
+    "source_sha256": "090b2e34b4ce4da6c5990e7380f165f31fe49eb6f2756a42056ab8fc72bbb98e",
+    "phase": "5.1",
+    "denominator": "168 original treatment parents in 84 treatment worlds; 2 source blocks",
+    "evaluation_population": "Phase 5.1 historical internal holdout",
+    "result": "Historical internal-holdout member recall was 0.9167 (rounded).",
+    "limitation": "Consumed internal evidence, not fresh external validation; macro parent metrics.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C16",
+    "claim_text": "Historical internal-holdout member F1 was 0.9167 (rounded).",
+    "source": "S61a35c7545:summary.json",
+    "source_locator": {
+      "json_pointer": "/member_f1",
+      "value": 0.9166666666666666
+    },
+    "source_sha256": "090b2e34b4ce4da6c5990e7380f165f31fe49eb6f2756a42056ab8fc72bbb98e",
+    "phase": "5.1",
+    "denominator": "168 original treatment parents in 84 treatment worlds; 2 source blocks",
+    "evaluation_population": "Phase 5.1 historical internal holdout",
+    "result": "Historical internal-holdout member F1 was 0.9167 (rounded).",
+    "limitation": "Consumed internal evidence, not fresh external validation; macro parent metrics.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "r\u00e9sum\u00e9",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C17",
+    "claim_text": "Historical internal-holdout target F1 was 0.9167 (rounded).",
+    "source": "S61a35c7545:summary.json",
+    "source_locator": {
+      "json_pointer": "/target_f1",
+      "value": 0.9166666666666666
+    },
+    "source_sha256": "090b2e34b4ce4da6c5990e7380f165f31fe49eb6f2756a42056ab8fc72bbb98e",
+    "phase": "5.1",
+    "denominator": "168 original treatment parents in 84 treatment worlds; 2 source blocks",
+    "evaluation_population": "Phase 5.1 historical internal holdout",
+    "result": "Historical internal-holdout target F1 was 0.9167 (rounded).",
+    "limitation": "Consumed internal evidence, not fresh external validation; macro parent metrics.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C18",
+    "claim_text": "Historical internal-holdout fragment recovery was 1.000.",
+    "source": "S61a35c7545:summary.json",
+    "source_locator": {
+      "json_pointer": "/fragment_recovery",
+      "value": 1.0
+    },
+    "source_sha256": "090b2e34b4ce4da6c5990e7380f165f31fe49eb6f2756a42056ab8fc72bbb98e",
+    "phase": "5.1",
+    "denominator": "designated fragmented-regime parents",
+    "evaluation_population": "Phase 5.1 historical internal holdout",
+    "result": "Historical internal-holdout fragment recovery was 1.000.",
+    "limitation": "Recovery criterion is at least half of each protected half in one matched object; not unique causal parent identification.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C19",
+    "claim_text": "The historical internal holdout had 0/84 control-world alerts.",
+    "source": "S344abe7732:PHANTOM_Phase6_1_NonVeto_Hybrid_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        9
+      ],
+      "literal": "controls0/84"
+    },
+    "source_sha256": "1ec40106a41911ff5bfa53c4ed59bf724f333fa53a61cbb2e8479d7cc92c2e36",
+    "phase": "6.1",
+    "denominator": "84 control worlds",
+    "evaluation_population": "Phase 5.1 historical internal holdout",
+    "result": "The historical internal holdout had 0/84 control-world alerts.",
+    "limitation": "Zero observed control alerts is not a production false-positive estimate.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C20",
+    "claim_text": "Duplicate-view campaign outputs agreed exactly in the historical internal holdout.",
+    "source": "S61a35c7545:summary.json",
+    "source_locator": {
+      "json_pointer": "/duplicate_exact",
+      "value": true
+    },
+    "source_sha256": "090b2e34b4ce4da6c5990e7380f165f31fe49eb6f2756a42056ab8fc72bbb98e",
+    "phase": "5.1",
+    "denominator": "frozen holdout duplicate checks",
+    "evaluation_population": "Phase 5.1 historical internal holdout",
+    "result": "Duplicate-view campaign outputs agreed exactly in the historical internal holdout.",
+    "limitation": "Presence invariance does not imply robustness to deleted or mis-timed observations.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C21",
+    "claim_text": "The accepted campaign algorithm uses 511 conditional-null draws, fixed catalog components, pooled complete-pair coincidence and fragment linking.",
+    "source": "Sa1ddbdadbd:PHANTOM_Operating_Contract_v1.md",
+    "source_locator": {
+      "lines": [
+        19
+      ],
+      "literal": "Use 511 draws"
+    },
+    "source_sha256": "f80b7a68beca5a4a31cefe3680b23ade92011a17644e25694afbf03c7af5ed70",
+    "phase": "7.2",
+    "denominator": "fixed method parameters",
+    "evaluation_population": "Phase 5.1 core",
+    "result": "The accepted campaign algorithm uses 511 conditional-null draws, fixed catalog components, pooled complete-pair coincidence and fragment linking.",
+    "limitation": "Null exchangeability for natural behavior is unproven; merged objects have no joint p-value.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C22",
+    "claim_text": "Identical detector-visible event histories can have distinct hidden causal explanations, so event-only outputs cannot universally identify intent.",
+    "source": "S1eb886a143:PHANTOM_Causal_Identifiability_Note_v1.md",
+    "source_locator": {
+      "lines": [
+        9
+      ],
+      "literal": "For any deterministic"
+    },
+    "source_sha256": "a745d9cebd9e12dcc5f057490e8020a43a5563fe7da21eb985eff7c49c5e5135",
+    "phase": "7.2",
+    "denominator": "6 constructed causal-twin cases; general equal-input implication",
+    "evaluation_population": "Phase 7.1/7.2 event-only setting",
+    "result": "Identical detector-visible event histories can have distinct hidden causal explanations, so event-only outputs cannot universally identify intent.",
+    "limitation": "Not an impossibility claim about systems using independent external provenance.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "abstract",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "r\u00e9sum\u00e9",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C23",
+    "claim_text": "The tested hybrid reduced member F1 from 0.9067 to 0.5357 on reused development worlds.",
+    "source": "S5e250bd909:PHANTOM_Phase6_Hybrid_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        12
+      ],
+      "literal": "Complete Hybrid (actionable)"
+    },
+    "source_sha256": "1dfebab93d89feebd0a00603cd308730d4b515832c154bb24cf283a187a244ae",
+    "phase": "6",
+    "denominator": "252 paired units, six development blocks",
+    "evaluation_population": "Phase 6 reused development",
+    "result": "The tested hybrid reduced member F1 from 0.9067 to 0.5357 on reused development worlds.",
+    "limitation": "Rejected design; not a comparison between different fresh populations.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "rejected_method_result"
+  },
+  {
+    "claim_id": "C24",
+    "claim_text": "The non-veto augmentation preserved the core but showed zero incremental ranking gain over its core-only baseline.",
+    "source": "S344abe7732:PHANTOM_Phase6_1_NonVeto_Hybrid_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        38
+      ],
+      "literal": "Mean block incremental gain=0"
+    },
+    "source_sha256": "1ec40106a41911ff5bfa53c4ed59bf724f333fa53a61cbb2e8479d7cc92c2e36",
+    "phase": "6.1",
+    "denominator": "210 admitted within-block comparisons",
+    "evaluation_population": "Phase 6.1 reused development",
+    "result": "The non-veto augmentation preserved the core but showed zero incremental ranking gain over its core-only baseline.",
+    "limitation": "Rejected augmentation; no general impossibility claim.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "rejected_method_result"
+  },
+  {
+    "claim_id": "C25",
+    "claim_text": "At 25% actor dropout, historical development member F1 was 0.7687.",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        35
+      ],
+      "literal": "| actor_dropout | 0.2500 | treatment"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "252 treatment worlds",
+    "evaluation_population": "Phase 7 six reused source blocks",
+    "result": "At 25% actor dropout, historical development member F1 was 0.7687.",
+    "limitation": "One perturbation at a time; full original truth denominator retained.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C26",
+    "claim_text": "Popularity-shock and release-event controls each alerted in every tested moderate world.",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        104
+      ],
+      "literal": "| negative_popularity_shock | 32 | 12"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "12 worlds per family",
+    "evaluation_population": "Phase 7 synthetic hard negatives on reused histories",
+    "result": "Popularity-shock and release-event controls each alerted in every tested moderate world.",
+    "limitation": "Assigned common-cause controls, not real listener fraud labels.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "failure_boundary"
+  },
+  {
+    "claim_id": "C27",
+    "claim_text": "Time-shifted 25% overlap yielded member F1 0.3636 and 100% control-world alert burden in the historical stress test.",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        49
+      ],
+      "literal": "| overlap | 0.2500 | treatment | True"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "fixed shifted-overlap panel",
+    "evaluation_population": "Phase 7 reused development",
+    "result": "Time-shifted 25% overlap yielded member F1 0.3636 and 100% control-world alert burden in the historical stress test.",
+    "limitation": "No overall accepted robust operating envelope.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "failure_boundary"
+  },
+  {
+    "claim_id": "C28",
+    "claim_text": "The final development investigation layer retained 480 candidates across 321 synthetic worlds.",
+    "source": "S6a652965b5:metrics.json",
+    "source_locator": {
+      "json_pointer": "/candidates",
+      "value": 480
+    },
+    "source_sha256": "fdc39afbed695b79b0af6ee473d0fb183ce4a4d9d417d4cc0c6fd84a98fc9a97",
+    "phase": "9.2",
+    "denominator": "321 worlds, 477 original parents",
+    "evaluation_population": "Phase 9.2 synthetic development plus combined fixtures",
+    "result": "The final development investigation layer retained 480 candidates across 321 synthetic worlds.",
+    "limitation": "Implementation evidence; no fresh real-population or analyst-utility study.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C29",
+    "claim_text": "Reviewable original-parent coverage was 327/477 in the combined Phase 9.2 development record.",
+    "source": "S6a652965b5:metrics.json",
+    "source_locator": {
+      "json_pointer": "/original_parent_reviewable_matches",
+      "value": 327
+    },
+    "source_sha256": "fdc39afbed695b79b0af6ee473d0fb183ce4a4d9d417d4cc0c6fd84a98fc9a97",
+    "phase": "9.2",
+    "denominator": "477 original parents",
+    "evaluation_population": "Phase 9.2 development",
+    "result": "Reviewable original-parent coverage was 327/477 in the combined Phase 9.2 development record.",
+    "limitation": "Do not confuse with candidate coverage 416/480.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C30",
+    "claim_text": "Expected out-of-support recall remained 40/44, leaving four benchmark disagreements.",
+    "source": "S6a652965b5:metrics.json",
+    "source_locator": {
+      "json_pointer": "/expected_OOS_recall",
+      "value": 0.9090909090909091
+    },
+    "source_sha256": "fdc39afbed695b79b0af6ee473d0fb183ce4a4d9d417d4cc0c6fd84a98fc9a97",
+    "phase": "9.2",
+    "denominator": "44 expected out-of-support cases",
+    "evaluation_population": "Phase 9.2 development",
+    "result": "Expected out-of-support recall remained 40/44, leaving four benchmark disagreements.",
+    "limitation": "Support-condition labels are not fraud labels.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C31",
+    "claim_text": "The frozen dashboard presents five complete synthetic research runs containing 22 campaign hypotheses.",
+    "source": "Sa765f11042:PHANTOM_Phase10_Dashboard_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        8
+      ],
+      "literal": "five complete authorized"
+    },
+    "source_sha256": "fb37b64ab541df6c85f48456cdaaa8cd76c360276a46ef195e7b89bb5ddb2a95",
+    "phase": "10",
+    "denominator": "5 runs; 22 hypotheses",
+    "evaluation_population": "Curated Phase 10 synthetic demonstration",
+    "result": "The frozen dashboard presents five complete synthetic research runs containing 22 campaign hypotheses.",
+    "limitation": "Curated display, not a population sample or new scientific evaluation.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "r\u00e9sum\u00e9",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C32",
+    "claim_text": "The dashboard retains 17 evidence sections per hypothesis, 176 support checks, 132 causal alternatives and 220 missing-provenance nulls.",
+    "source": "Sa765f11042:PHANTOM_Phase10_Dashboard_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        48
+      ],
+      "literal": "All 374 source"
+    },
+    "source_sha256": "fb37b64ab541df6c85f48456cdaaa8cd76c360276a46ef195e7b89bb5ddb2a95",
+    "phase": "10",
+    "denominator": "22 hypotheses",
+    "evaluation_population": "Phase 10 synthetic demonstration",
+    "result": "The dashboard retains 17 evidence sections per hypothesis, 176 support checks, 132 causal alternatives and 220 missing-provenance nulls.",
+    "limitation": "Availability and schema fidelity do not establish causal resolution.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C33",
+    "claim_text": "The frozen fidelity engineering receipt records 190 passing checks and zero failures.",
+    "source": "S835919f5b6:fidelity_results.json",
+    "source_locator": {
+      "json_pointer": "/passed",
+      "value": 190
+    },
+    "source_sha256": "8ebed1257d26d6118f655d6ae141e3bd3a8fecdb0679cb78e9c3cba2f2aeb3a8",
+    "phase": "10",
+    "denominator": "190 authored checks",
+    "evaluation_population": "Phase 10 frozen implementation",
+    "result": "The frozen fidelity engineering receipt records 190 passing checks and zero failures.",
+    "limitation": "Software checks are not independent scientific observations or analyst studies.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C34",
+    "claim_text": "The frozen tie engineering receipt records 113 passing checks and zero failures.",
+    "source": "S85b9256248:tie_results.json",
+    "source_locator": {
+      "json_pointer": "/passed",
+      "value": 113
+    },
+    "source_sha256": "128a41267cb86254d833e827ee9b760d64e33ce10e72e898b96d622d1a0d5f41",
+    "phase": "10",
+    "denominator": "113 authored checks",
+    "evaluation_population": "Phase 10 frozen implementation",
+    "result": "The frozen tie engineering receipt records 113 passing checks and zero failures.",
+    "limitation": "Software checks are not independent scientific observations or analyst studies.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C35",
+    "claim_text": "The frozen browser engineering receipt records 3,392 passing checks and zero failures.",
+    "source": "S91c97d6397:browser_results.json",
+    "source_locator": {
+      "json_pointer": "/passed",
+      "value": 3392
+    },
+    "source_sha256": "c583e03945a14642af28b70d628fa0a58711a3dc2e29464f06fe5ab974d00654",
+    "phase": "10",
+    "denominator": "3392 authored checks",
+    "evaluation_population": "Phase 10 frozen implementation",
+    "result": "The frozen browser engineering receipt records 3,392 passing checks and zero failures.",
+    "limitation": "Software checks are not independent scientific observations or analyst studies.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C36",
+    "claim_text": "The frozen brand engineering receipt records 234 passing checks and zero failures.",
+    "source": "S8b4750eb01:brand_results.json",
+    "source_locator": {
+      "json_pointer": "/passed",
+      "value": 234
+    },
+    "source_sha256": "d5ce64201a1c8162a35fa680b58be261590af8b2f08f8cd03a24a0c7bb9f7702",
+    "phase": "10",
+    "denominator": "234 authored checks",
+    "evaluation_population": "Phase 10 frozen implementation",
+    "result": "The frozen brand engineering receipt records 234 passing checks and zero failures.",
+    "limitation": "Software checks are not independent scientific observations or analyst studies.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C37",
+    "claim_text": "The frozen contrast engineering receipt records 14 passing checks and zero failures.",
+    "source": "S6b607da259:contrast_results.json",
+    "source_locator": {
+      "json_pointer": "/passed",
+      "value": 14
+    },
+    "source_sha256": "e7bad3eefbdd8c524520458bda667227e458b1789984ad242f902408c7460a19",
+    "phase": "10",
+    "denominator": "14 authored checks",
+    "evaluation_population": "Phase 10 frozen implementation",
+    "result": "The frozen contrast engineering receipt records 14 passing checks and zero failures.",
+    "limitation": "Software checks are not independent scientific observations or analyst studies.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "accepted_with_scope"
+  },
+  {
+    "claim_id": "C38",
+    "claim_text": "Raw relational threshold transfer failed despite AUC 1.000, with 22/180 control alerts in historical validation.",
+    "source": "S36895d8559:PHANTOM_Phase4_9_Relational_Calibration_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        3
+      ],
+      "literal": "22/180"
+    },
+    "source_sha256": "a244f18a0ae3b9616ab4bae07677a2b766b64c57889343bd5bfaf7a0d43931aa",
+    "phase": "4.9",
+    "denominator": "180 controls; four validation source blocks",
+    "evaluation_population": "Phase 4.9 consumed historical validation",
+    "result": "Raw relational threshold transfer failed despite AUC 1.000, with 22/180 control alerts in historical validation.",
+    "limitation": "Failure retained; no threshold tuned on this population.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "rejected_method_result"
+  },
+  {
+    "claim_id": "C39",
+    "claim_text": "Semantic duplicate-key counts changed in 20/180 pairs under the first structure-preserving reassignment.",
+    "source": "Sec5fd114cf:PHANTOM_Phase4_8_Structure_Preserving_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        3
+      ],
+      "literal": "20 of 180"
+    },
+    "source_sha256": "bf7ea1baae153fbd9f6f34aad1c8b9ffdbd9a64c94d05b9f1a8cdeab0a9cd8b0",
+    "phase": "4.8",
+    "denominator": "180 development pairs",
+    "evaluation_population": "Phase 4.8",
+    "result": "Semantic duplicate-key counts changed in 20/180 pairs under the first structure-preserving reassignment.",
+    "limitation": "Rejected construction; relational scores inadmissible after processing gate failed.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "rejected_method_result"
+  },
+  {
+    "claim_id": "C40",
+    "claim_text": "Synthetic-neutral alerts remained 12.08% after session-free remediation, against 4.79% observed-background alerts.",
+    "source": "S1c9ac8e741:PHANTOM_Phase4_5_Remediation_Report_v1.md",
+    "source_locator": {
+      "lines": [
+        22
+      ],
+      "literal": "SYNTHETIC_ONLY_NOSESSION"
+    },
+    "source_sha256": "b1728b8dda822227b5cb8ace29fe4f22284f9a77f4edac49bcc69251eab16e28",
+    "phase": "4.5",
+    "denominator": "60 validation scenarios with replicated comparator actors",
+    "evaluation_population": "Phase 4.5",
+    "result": "Synthetic-neutral alerts remained 12.08% after session-free remediation, against 4.79% observed-background alerts.",
+    "limitation": "Observed background unlabeled; unequal alert rates diagnose benchmark shift.",
+    "allowed_contexts": [
+      "LinkedIn",
+      "conference paper",
+      "oral interview",
+      "portfolio",
+      "press/public summary",
+      "technical paper",
+      "website"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "rejected_method_result"
+  },
+  {
+    "claim_id": "C41",
+    "claim_text": "| actor_dropout | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 34,
+      "literal": "| actor_dropout | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| actor_dropout | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C42",
+    "claim_text": "| actor_dropout | 0.2500 | treatment | n/a | 0.7687 | 0.8968 | 0.8968 | n/a | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 35,
+      "literal": "| actor_dropout | 0.2500 | treatment | n/a | 0.7687 | 0.8968 | 0.8968 | n/a | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| actor_dropout | 0.2500 | treatment | n/a | 0.7687 | 0.8968 | 0.8968 | n/a | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C43",
+    "claim_text": "| target_dropout | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0079 | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 36,
+      "literal": "| target_dropout | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0079 | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| target_dropout | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0079 | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C44",
+    "claim_text": "| target_dropout | 0.2500 | treatment | n/a | 0.8757 | 0.7512 | 0.8413 | n/a | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 37,
+      "literal": "| target_dropout | 0.2500 | treatment | n/a | 0.8757 | 0.7512 | 0.8413 | n/a | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| target_dropout | 0.2500 | treatment | n/a | 0.8757 | 0.7512 | 0.8413 | n/a | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C45",
+    "claim_text": "| event_thinning | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0079 | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 38,
+      "literal": "| event_thinning | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0079 | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| event_thinning | 0.2500 | control | n/a | n/a | n/a | n/a | 0.0079 | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C46",
+    "claim_text": "| event_thinning | 0.2500 | treatment | n/a | 0.8981 | 0.8990 | 0.8929 | n/a | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 39,
+      "literal": "| event_thinning | 0.2500 | treatment | n/a | 0.8981 | 0.8990 | 0.8929 | n/a | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| event_thinning | 0.2500 | treatment | n/a | 0.8981 | 0.8990 | 0.8929 | n/a | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C47",
+    "claim_text": "| jitter | 30 | control | n/a | n/a | n/a | n/a | 0.0238 | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 40,
+      "literal": "| jitter | 30 | control | n/a | n/a | n/a | n/a | 0.0238 | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| jitter | 30 | control | n/a | n/a | n/a | n/a | 0.0238 | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C48",
+    "claim_text": "| jitter | 30 | treatment | n/a | 0.9167 | 0.9167 | 0.9167 | n/a | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 41,
+      "literal": "| jitter | 30 | treatment | n/a | 0.9167 | 0.9167 | 0.9167 | n/a | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| jitter | 30 | treatment | n/a | 0.9167 | 0.9167 | 0.9167 | n/a | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C49",
+    "claim_text": "| prefix | 0.7500 | control | n/a | n/a | n/a | n/a | 0.0159 | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 42,
+      "literal": "| prefix | 0.7500 | control | n/a | n/a | n/a | n/a | 0.0159 | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| prefix | 0.7500 | control | n/a | n/a | n/a | n/a | 0.0159 | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C50",
+    "claim_text": "| prefix | 0.7500 | treatment | n/a | 0.7540 | 0.7540 | 0.7540 | n/a | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 43,
+      "literal": "| prefix | 0.7500 | treatment | n/a | 0.7540 | 0.7540 | 0.7540 | n/a | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| prefix | 0.7500 | treatment | n/a | 0.7540 | 0.7540 | 0.7540 | n/a | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C51",
+    "claim_text": "| multi_campaign | 4 | control | n/a | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 44,
+      "literal": "| multi_campaign | 4 | control | n/a | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| multi_campaign | 4 | control | n/a | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C52",
+    "claim_text": "| multi_campaign | 4 | treatment | n/a | 1.0000 | 1.0000 | 1.0000 | n/a | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 45,
+      "literal": "| multi_campaign | 4 | treatment | n/a | 1.0000 | 1.0000 | 1.0000 | n/a | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| multi_campaign | 4 | treatment | n/a | 1.0000 | 1.0000 | 1.0000 | n/a | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C53",
+    "claim_text": "| overlap | 0.2500 | control | False | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 46,
+      "literal": "| overlap | 0.2500 | control | False | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| overlap | 0.2500 | control | False | n/a | n/a | n/a | 0.0000 | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C54",
+    "claim_text": "| overlap | 0.2500 | control | True | n/a | n/a | n/a | 1.0000 | 0.0000 | 0.0000 | False | world_alert_burden |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 47,
+      "literal": "| overlap | 0.2500 | control | True | n/a | n/a | n/a | 1.0000 | 0.0000 | 0.0000 | False | world_alert_burden |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| overlap | 0.2500 | control | True | n/a | n/a | n/a | 1.0000 | 0.0000 | 0.0000 | False | world_alert_burden |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C55",
+    "claim_text": "| overlap | 0.2500 | treatment | False | 0.8571 | 1.0000 | 1.0000 | n/a | 0.0000 | 0.0000 | True | none |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 48,
+      "literal": "| overlap | 0.2500 | treatment | False | 0.8571 | 1.0000 | 1.0000 | n/a | 0.0000 | 0.0000 | True | none |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| overlap | 0.2500 | treatment | False | 0.8571 | 1.0000 | 1.0000 | n/a | 0.0000 | 0.0000 | True | none |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C56",
+    "claim_text": "| overlap | 0.2500 | treatment | True | 0.3636 | 0.3636 | 0.5000 | n/a | 0.0000 | 0.0000 | False | member_f1, target_f1 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 49,
+      "literal": "| overlap | 0.2500 | treatment | True | 0.3636 | 0.3636 | 0.5000 | n/a | 0.0000 | 0.0000 | False | member_f1, target_f1 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| overlap | 0.2500 | treatment | True | 0.3636 | 0.3636 | 0.5000 | n/a | 0.0000 | 0.0000 | False | member_f1, target_f1 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C57",
+    "claim_text": "| negative_popularity_shock | 32 | negative | n/a | n/a | n/a | n/a | 1.0000 | 0.2544 | 0.3376 | False | world_alert_burden, background_absorption, stress_absorption |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 53,
+      "literal": "| negative_popularity_shock | 32 | negative | n/a | n/a | n/a | n/a | 1.0000 | 0.2544 | 0.3376 | False | world_alert_burden, background_absorption, stress_absorption |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_popularity_shock | 32 | negative | n/a | n/a | n/a | n/a | 1.0000 | 0.2544 | 0.3376 | False | world_alert_burden, background_absorption, stress_absorption |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C58",
+    "claim_text": "| negative_release_event | 32 | negative | n/a | n/a | n/a | n/a | 1.0000 | 0.2544 | 0.3376 | False | world_alert_burden, background_absorption, stress_absorption |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 55,
+      "literal": "| negative_release_event | 32 | negative | n/a | n/a | n/a | n/a | 1.0000 | 0.2544 | 0.3376 | False | world_alert_burden, background_absorption, stress_absorption |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_release_event | 32 | negative | n/a | n/a | n/a | n/a | 1.0000 | 0.2544 | 0.3376 | False | world_alert_burden, background_absorption, stress_absorption |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C59",
+    "claim_text": "| negative_routine_listening | 32 | negative | n/a | n/a | n/a | n/a | 0.1667 | 0.0416 | 0.0644 | False | world_alert_burden |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 57,
+      "literal": "| negative_routine_listening | 32 | negative | n/a | n/a | n/a | n/a | 0.1667 | 0.0416 | 0.0644 | False | world_alert_burden |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_routine_listening | 32 | negative | n/a | n/a | n/a | n/a | 0.1667 | 0.0416 | 0.0644 | False | world_alert_burden |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C60",
+    "claim_text": "| negative_popularity_shock | 16 | 12 | 1.0000 | 0.1272 | 0.2000 | 1.0000 | 503.1667 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 103,
+      "literal": "| negative_popularity_shock | 16 | 12 | 1.0000 | 0.1272 | 0.2000 | 1.0000 | 503.1667 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_popularity_shock | 16 | 12 | 1.0000 | 0.1272 | 0.2000 | 1.0000 | 503.1667 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C61",
+    "claim_text": "| negative_popularity_shock | 32 | 12 | 1.0000 | 0.2544 | 0.3376 | 1.0000 | 1003.5833 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 104,
+      "literal": "| negative_popularity_shock | 32 | 12 | 1.0000 | 0.2544 | 0.3376 | 1.0000 | 1003.5833 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_popularity_shock | 32 | 12 | 1.0000 | 0.2544 | 0.3376 | 1.0000 | 1003.5833 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C62",
+    "claim_text": "| negative_popularity_shock | 64 | 12 | 1.0000 | 0.5087 | 0.6024 | 1.0000 | 2004.0000 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 105,
+      "literal": "| negative_popularity_shock | 64 | 12 | 1.0000 | 0.5087 | 0.6024 | 1.0000 | 2004.0000 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_popularity_shock | 64 | 12 | 1.0000 | 0.5087 | 0.6024 | 1.0000 | 2004.0000 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C63",
+    "claim_text": "| negative_release_event | 16 | 12 | 1.0000 | 0.1272 | 0.2000 | 1.0000 | 503.1667 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 109,
+      "literal": "| negative_release_event | 16 | 12 | 1.0000 | 0.1272 | 0.2000 | 1.0000 | 503.1667 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_release_event | 16 | 12 | 1.0000 | 0.1272 | 0.2000 | 1.0000 | 503.1667 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C64",
+    "claim_text": "| negative_release_event | 32 | 12 | 1.0000 | 0.2544 | 0.3376 | 1.0000 | 1003.5833 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 110,
+      "literal": "| negative_release_event | 32 | 12 | 1.0000 | 0.2544 | 0.3376 | 1.0000 | 1003.5833 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_release_event | 32 | 12 | 1.0000 | 0.2544 | 0.3376 | 1.0000 | 1003.5833 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C65",
+    "claim_text": "| negative_release_event | 64 | 12 | 1.0000 | 0.5087 | 0.6024 | 1.0000 | 2004.0000 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 111,
+      "literal": "| negative_release_event | 64 | 12 | 1.0000 | 0.5087 | 0.6024 | 1.0000 | 2004.0000 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_release_event | 64 | 12 | 1.0000 | 0.5087 | 0.6024 | 1.0000 | 2004.0000 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C66",
+    "claim_text": "| negative_routine_listening | 16 | 12 | 0.0833 | 0.0119 | 0.0120 | 1.0000 | 503.1667 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 115,
+      "literal": "| negative_routine_listening | 16 | 12 | 0.0833 | 0.0119 | 0.0120 | 1.0000 | 503.1667 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_routine_listening | 16 | 12 | 0.0833 | 0.0119 | 0.0120 | 1.0000 | 503.1667 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C67",
+    "claim_text": "| negative_routine_listening | 32 | 12 | 0.1667 | 0.0416 | 0.0644 | 1.0000 | 1003.5833 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 116,
+      "literal": "| negative_routine_listening | 32 | 12 | 0.1667 | 0.0416 | 0.0644 | 1.0000 | 1003.5833 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_routine_listening | 32 | 12 | 0.1667 | 0.0416 | 0.0644 | 1.0000 | 1003.5833 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C68",
+    "claim_text": "| negative_routine_listening | 64 | 12 | 0.0000 | 0.0000 | 0.0000 | 1.0000 | 2004.0000 |",
+    "source": "Sbaf995ab9f:PHANTOM_Phase7_Hard_Negative_Robustness_Report_v1.md",
+    "source_locator": {
+      "line": 117,
+      "literal": "| negative_routine_listening | 64 | 12 | 0.0000 | 0.0000 | 0.0000 | 1.0000 | 2004.0000 |"
+    },
+    "source_sha256": "4a5d653fef246efd31a0f60e47cd803b7cb924ccbb9737816616d4ad4f8e96b6",
+    "phase": "7",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Phase 7 reused development; row-specific family and severity",
+    "result": "| negative_routine_listening | 64 | 12 | 0.0000 | 0.0000 | 0.0000 | 1.0000 | 2004.0000 |",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "historical_context"
+  },
+  {
+    "claim_id": "C69",
+    "claim_text": "N=4095",
+    "source": "Sc08d075df0:local_null.py",
+    "source_locator": {
+      "line": 4,
+      "literal": "N=4095"
+    },
+    "source_sha256": "ca4d38c8ce6b0948b9f235031a89c40f6b2112ddcbe493cd84e330d9b86bbd5a",
+    "phase": "4.11",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "N=4095",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C70",
+    "claim_text": "SEED=41101",
+    "source": "Sc08d075df0:local_null.py",
+    "source_locator": {
+      "line": 5,
+      "literal": "SEED=41101"
+    },
+    "source_sha256": "ca4d38c8ce6b0948b9f235031a89c40f6b2112ddcbe493cd84e330d9b86bbd5a",
+    "phase": "4.11",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "SEED=41101",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C71",
+    "claim_text": "if len(rows)==32 and len(np.unique(ts//60))==32 and ts.max()-ts.min()>=27*86400:valid.append((users,rows))",
+    "source": "Sc08d075df0:local_null.py",
+    "source_locator": {
+      "line": 18,
+      "literal": "  if len(rows)==32 and len(np.unique(ts//60))==32 and ts.max()-ts.min()>=27*86400:valid.append((users,rows))"
+    },
+    "source_sha256": "ca4d38c8ce6b0948b9f235031a89c40f6b2112ddcbe493cd84e330d9b86bbd5a",
+    "phase": "4.11",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "if len(rows)==32 and len(np.unique(ts//60))==32 and ts.max()-ts.min()>=27*86400:valid.append((users,rows))",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C72",
+    "claim_text": "if len(valid)!=1:raise ValueError('unsupported visible schedule: require exactly one qualifying actor-set group')",
+    "source": "Sc08d075df0:local_null.py",
+    "source_locator": {
+      "line": 19,
+      "literal": " if len(valid)!=1:raise ValueError('unsupported visible schedule: require exactly one qualifying actor-set group')"
+    },
+    "source_sha256": "ca4d38c8ce6b0948b9f235031a89c40f6b2112ddcbe493cd84e330d9b86bbd5a",
+    "phase": "4.11",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "if len(valid)!=1:raise ValueError('unsupported visible schedule: require exactly one qualifying actor-set group')",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C73",
+    "claim_text": "DRAWS,SEED=511,55101",
+    "source": "Sb213e888e9:detector.py",
+    "source_locator": {
+      "line": 8,
+      "literal": "DRAWS,SEED=511,55101"
+    },
+    "source_sha256": "f54c006865d1524ab1ee4e82b0dff81839a5aa927f1e12100207606f9994526f",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "DRAWS,SEED=511,55101",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C74",
+    "claim_text": "cuts=np.r_[0,np.flatnonzero(np.diff(ts)>(0 if kind=='exact_schedule' else 600))+1,len(ts)]",
+    "source": "Sb213e888e9:detector.py",
+    "source_locator": {
+      "line": 30,
+      "literal": " cuts=np.r_[0,np.flatnonzero(np.diff(ts)>(0 if kind=='exact_schedule' else 600))+1,len(ts)]"
+    },
+    "source_sha256": "f54c006865d1524ab1ee4e82b0dff81839a5aa927f1e12100207606f9994526f",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "cuts=np.r_[0,np.flatnonzero(np.diff(ts)>(0 if kind=='exact_schedule' else 600))+1,len(ts)]",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C75",
+    "claim_text": "if len(u)<8:continue",
+    "source": "Sb213e888e9:detector.py",
+    "source_locator": {
+      "line": 34,
+      "literal": "  if len(u)<8:continue"
+    },
+    "source_sha256": "f54c006865d1524ab1ee4e82b0dff81839a5aa927f1e12100207606f9994526f",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "if len(u)<8:continue",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C76",
+    "claim_text": "return [np.array([i for i in ix if activity[a[i,0]]>=8],int) for ix in selected]",
+    "source": "Sb213e888e9:detector.py",
+    "source_locator": {
+      "line": 38,
+      "literal": " return [np.array([i for i in ix if activity[a[i,0]]>=8],int) for ix in selected]"
+    },
+    "source_sha256": "f54c006865d1524ab1ee4e82b0dff81839a5aa927f1e12100207606f9994526f",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "return [np.array([i for i in ix if activity[a[i,0]]>=8],int) for ix in selected]",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C77",
+    "claim_text": "if shared>=3 and jac>=.1:graph.add_edge(i,j)",
+    "source": "S88082f1272:pooling.py",
+    "source_locator": {
+      "line": 13,
+      "literal": "  if shared>=3 and jac>=.1:graph.add_edge(i,j)"
+    },
+    "source_sha256": "502267217e01ed904ec1ed7e12088d6b6a062d555819f3fd4cc8c5929a764979",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "if shared>=3 and jac>=.1:graph.add_edge(i,j)",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C78",
+    "claim_text": "components=[sorted(c) for c in nx.connected_components(graph) if len(c)>=3];components.sort();member_group={i:c for c,inds in enumerate(components) for i in inds}",
+    "source": "S88082f1272:pooling.py",
+    "source_locator": {
+      "line": 14,
+      "literal": " components=[sorted(c) for c in nx.connected_components(graph) if len(c)>=3];components.sort();member_group={i:c for c,inds in enumerate(components) for i in inds}"
+    },
+    "source_sha256": "502267217e01ed904ec1ed7e12088d6b6a062d555819f3fd4cc8c5929a764979",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "components=[sorted(c) for c in nx.connected_components(graph) if len(c)>=3];components.sort();member_group={i:c for c,inds in enumerate(components) for i in inds}",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C79",
+    "claim_text": "denominator=np.array([len(c)*(len(c)-1)/2 for c in components]);preds={};summaries={}",
+    "source": "S88082f1272:pooling.py",
+    "source_locator": {
+      "line": 28,
+      "literal": " denominator=np.array([len(c)*(len(c)-1)/2 for c in components]);preds={};summaries={}"
+    },
+    "source_sha256": "502267217e01ed904ec1ed7e12088d6b6a062d555819f3fd4cc8c5929a764979",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "denominator=np.array([len(c)*(len(c)-1)/2 for c in components]);preds={};summaries={}",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C80",
+    "claim_text": "maximum=nz.max(axis=1) if len(components) else np.zeros(DRAWS);pp=np.array([(1+np.sum(maximum>=v))/(DRAWS+1) for v in z]);keep=(z>=3)&(pp<=.01)",
+    "source": "S88082f1272:pooling.py",
+    "source_locator": {
+      "line": 34,
+      "literal": "  maximum=nz.max(axis=1) if len(components) else np.zeros(DRAWS);pp=np.array([(1+np.sum(maximum>=v))/(DRAWS+1) for v in z]);keep=(z>=3)&(pp<=.01)"
+    },
+    "source_sha256": "502267217e01ed904ec1ed7e12088d6b6a062d555819f3fd4cc8c5929a764979",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "maximum=nz.max(axis=1) if len(components) else np.zeros(DRAWS);pp=np.array([(1+np.sum(maximum>=v))/(DRAWS+1) for v in z]);keep=(z>=3)&(pp<=.01)",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "C81",
+    "claim_text": "if len(x&y)/max(1,len(x|y))>=.25 and overlap>=.5:links.add_edge(i,j)",
+    "source": "S88082f1272:pooling.py",
+    "source_locator": {
+      "line": 51,
+      "literal": "   if len(x&y)/max(1,len(x|y))>=.25 and overlap>=.5:links.add_edge(i,j)"
+    },
+    "source_sha256": "502267217e01ed904ec1ed7e12088d6b6a062d555819f3fd4cc8c5929a764979",
+    "phase": "5.1",
+    "denominator": "See exact frozen row or implementation line",
+    "evaluation_population": "Frozen implementation support and constants",
+    "result": "if len(x&y)/max(1,len(x|y))>=.25 and overlap>=.5:links.add_edge(i,j)",
+    "limitation": "Historical bounded evidence or implementation constant; not independent observations, fraud labels or production validation.",
+    "allowed_contexts": [
+      "conference paper",
+      "oral interview",
+      "technical paper"
+    ],
+    "publication_permission": "Only scoped wording, within approved allowlist and explicit final author authorization",
+    "status": "implementation_definition"
+  },
+  {
+    "claim_id": "F01",
+    "claim_text": "The committed September final population contains 4,032 listeners in 42 groups of 96, with 3,714,102 original observed events.",
+    "source": "phase12_v2/evidence/population_manifest.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "de99ac7ab4850cff52cd6b8ba17af1b60d986a31f8cd268bf1832e25ac9af678",
+    "phase": "12",
+    "denominator": "4032 listeners; 42 groups",
+    "evaluation_population": "September 1-28, 2026 UTC ListenBrainz",
+    "result": "The committed September final population contains 4,032 listeners in 42 groups of 96, with 3,714,102 original observed events.",
+    "limitation": "Source scale is original observed events, not the total across replicated worlds.",
+    "allowed_contexts": [
+      "abstract",
+      "technical paper",
+      "conference paper",
+      "portfolio",
+      "r\u00e9sum\u00e9",
+      "LinkedIn",
+      "website",
+      "oral interview",
+      "press/public summary"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F02",
+    "claim_text": "The prospective protocol and scientific system were frozen before final population materialization and scoring.",
+    "source": "phase12_v2/PHASE12_FINAL_EXECUTION_LOCK_SUPERSEDING.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "fda63407156d072ed2cfddfcdcb46940134a021d953713a883a614f9399dc5c5",
+    "phase": "12",
+    "denominator": "one committed final protocol",
+    "evaluation_population": "Prospective final",
+    "result": "The prospective protocol and scientific system were frozen before final population materialization and scoring.",
+    "limitation": "Local process and hash record, not external registry/custodial attestation; pre-access amendment and lock replacement disclosed.",
+    "allowed_contexts": [
+      "technical paper",
+      "conference paper",
+      "oral interview",
+      "website",
+      "portfolio"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F03",
+    "claim_text": "The final contains 378 matched treatment/control pairs and 756 worlds.",
+    "source": "phase12_v2/PHASE12_FINAL_RESULTS.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "585f91baf7ecfa6d2ec4a8b916b8a95e4933beb1f74a67e957304043ac8418d2",
+    "phase": "12",
+    "denominator": "42 groups x 3 seeds x 3 levels",
+    "evaluation_population": "Prospective final",
+    "result": "The final contains 378 matched treatment/control pairs and 756 worlds.",
+    "limitation": "Pairs and repeated worlds are dependent; labels are controlled interventions.",
+    "allowed_contexts": [
+      "abstract",
+      "technical paper",
+      "conference paper",
+      "portfolio",
+      "r\u00e9sum\u00e9",
+      "LinkedIn",
+      "website",
+      "oral interview",
+      "press/public summary"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F04",
+    "claim_text": "Mean block and pooled AUC were both 1.000 in the committed controlled final benchmark.",
+    "source": "phase12b/PHASE12_CORRECTED_VERIFICATION_RECEIPT.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "55de97d8c477b4f81d4744f037d297e8333d77b4347c7c2943391cd15f06611d",
+    "phase": "12B",
+    "denominator": "378 treatment worlds and 378 controls; 42 groups",
+    "evaluation_population": "Prospective final",
+    "result": "Mean block and pooled AUC were both 1.000 in the committed controlled final benchmark.",
+    "limitation": "No real fraud classification or unrestricted stream coverage.",
+    "allowed_contexts": [
+      "abstract",
+      "technical paper",
+      "conference paper",
+      "portfolio",
+      "r\u00e9sum\u00e9",
+      "LinkedIn",
+      "website",
+      "oral interview",
+      "press/public summary"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F05",
+    "claim_text": "The frozen detector alerted on 378/378 planted treatment worlds and 0/378 matched controls.",
+    "source": "phase12b/PHASE12_CORRECTED_VERIFICATION_RECEIPT.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "55de97d8c477b4f81d4744f037d297e8333d77b4347c7c2943391cd15f06611d",
+    "phase": "12B",
+    "denominator": "378 per arm",
+    "evaluation_population": "Prospective final",
+    "result": "The frozen detector alerted on 378/378 planted treatment worlds and 0/378 matched controls.",
+    "limitation": "Zero observed controls is not zero natural-population alert probability.",
+    "allowed_contexts": [
+      "abstract",
+      "technical paper",
+      "conference paper",
+      "portfolio",
+      "r\u00e9sum\u00e9",
+      "LinkedIn",
+      "website",
+      "oral interview",
+      "press/public summary"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F06",
+    "claim_text": "Worst-block control burden was 0.0%.",
+    "source": "phase12b/PHASE12_CORRECTED_VERIFICATION_RECEIPT.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "55de97d8c477b4f81d4744f037d297e8333d77b4347c7c2943391cd15f06611d",
+    "phase": "12B",
+    "denominator": "42 blocks; 9 control worlds each",
+    "evaluation_population": "Prospective final",
+    "result": "Worst-block control burden was 0.0%.",
+    "limitation": "Conditional empirical burden, not production false-positive rate.",
+    "allowed_contexts": [
+      "technical paper",
+      "conference paper",
+      "oral interview",
+      "website",
+      "portfolio"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F07",
+    "claim_text": "All 18 applicable scientific gates pass.",
+    "source": "phase12b/PHASE12_CORRECTED_VERIFICATION_RECEIPT.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "55de97d8c477b4f81d4744f037d297e8333d77b4347c7c2943391cd15f06611d",
+    "phase": "12B",
+    "denominator": "18 scientific gates; reproduction is a separate nineteenth requirement",
+    "evaluation_population": "Prospective final",
+    "result": "All 18 applicable scientific gates pass.",
+    "limitation": "Gate checks are not independent studies; original verifier did not complete.",
+    "allowed_contexts": [
+      "technical paper",
+      "conference paper",
+      "oral interview",
+      "website",
+      "portfolio"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F08",
+    "claim_text": "Independent replay covered and post-final verification confirmed all 756 worlds.",
+    "source": "phase12b/PHASE12_CORRECTED_VERIFICATION_RECEIPT.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "55de97d8c477b4f81d4744f037d297e8333d77b4347c7c2943391cd15f06611d",
+    "phase": "12B",
+    "denominator": "756 original/replay worlds",
+    "evaluation_population": "Prospective final",
+    "result": "Independent replay covered and post-final verification confirmed all 756 worlds.",
+    "limitation": "Independent implementation/process, not institution; replay is not a fresh trial.",
+    "allowed_contexts": [
+      "abstract",
+      "technical paper",
+      "conference paper",
+      "portfolio",
+      "r\u00e9sum\u00e9",
+      "LinkedIn",
+      "website",
+      "oral interview",
+      "press/public summary"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F09",
+    "claim_text": "Conditional AUC and detection intervals are [1.000, 1.000], control mean [0.000, 0.000], and equal-block upper 95% control bound 0.0%.",
+    "source": "phase12b/PHASE12_CORRECTED_VERIFICATION_RECEIPT.json",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "55de97d8c477b4f81d4744f037d297e8333d77b4347c7c2943391cd15f06611d",
+    "phase": "12B",
+    "denominator": "2000 committed whole-block resamples of 42 dependent-replica groups",
+    "evaluation_population": "Prospective final",
+    "result": "Conditional AUC and detection intervals are [1.000, 1.000], control mean [0.000, 0.000], and equal-block upper 95% control bound 0.0%.",
+    "limitation": "Empirical conditional intervals do not cover unseen mechanisms or establish zero natural-population risk.",
+    "allowed_contexts": [
+      "technical paper",
+      "conference paper",
+      "oral interview",
+      "website",
+      "portfolio"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F10",
+    "claim_text": "The original frozen verifier failed during receipt serialization after scientific execution.",
+    "source": "phase12_v2/PHASE12_VERIFICATION_FAILURE_RECORD.md",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "7489f27b84c09fb458f73e5f275d4de5a40aa8d3fff83c76e8e16b2bb987013e",
+    "phase": "12",
+    "denominator": "one failed locked verification attempt",
+    "evaluation_population": "Phase 12 v2 original attempt",
+    "result": "The original frozen verifier failed during receipt serialization after scientific execution.",
+    "limitation": "Non-scientific NumPy boolean conversion defect; original failure is permanent.",
+    "allowed_contexts": [
+      "abstract",
+      "technical paper",
+      "conference paper",
+      "portfolio",
+      "r\u00e9sum\u00e9",
+      "LinkedIn",
+      "website",
+      "oral interview",
+      "press/public summary"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F11",
+    "claim_text": "A separate post-final forensic verifier confirmed all provisional final metrics exactly from immutable original/replay artifacts.",
+    "source": "phase12b/PHASE12_POSTFINAL_FORENSIC_VERIFICATION.md",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "afa872c65fed123949b0e6f3bffb6d4bea65be9eab165d9f904d843ec4e5cbc8",
+    "phase": "12B",
+    "denominator": "all metrics; 756 worlds",
+    "evaluation_population": "Phase 12B post-final confirmation",
+    "result": "A separate post-final forensic verifier confirmed all provisional final metrics exactly from immutable original/replay artifacts.",
+    "limitation": "No selection, construction, detector or new null draws; not normal completion of original verifier.",
+    "allowed_contexts": [
+      "abstract",
+      "technical paper",
+      "conference paper",
+      "portfolio",
+      "r\u00e9sum\u00e9",
+      "LinkedIn",
+      "website",
+      "oral interview",
+      "press/public summary"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "F12",
+    "claim_text": "Post-final forensic verification did not change scientific code, seeds, thresholds or predictions.",
+    "source": "phase12b/PHASE12_REMEDIATION_NON_TUNING_AUDIT.md",
+    "source_locator": "See frozen receipt/report; final_arithmetic_audit.json checks headline arithmetic",
+    "source_sha256": "90572b5afe43e7abdba5e9af69aac01cef568b97ae6a1264cc24e5d21392a5cb",
+    "phase": "12B",
+    "denominator": "6399 preserved files in Phase 12B audit",
+    "evaluation_population": "Phase 12B",
+    "result": "Post-final forensic verification did not change scientific code, seeds, thresholds or predictions.",
+    "limitation": "Local integrity/capability evidence; no claim of OS-wide or third-party custody.",
+    "allowed_contexts": [
+      "technical paper",
+      "conference paper",
+      "oral interview",
+      "website",
+      "portfolio"
+    ],
+    "publication_permission": "Scoped wording only; explicit final author authorization required",
+    "status": "confirmed result with preserved procedural qualification"
+  },
+  {
+    "claim_id": "X01",
+    "claim_text": "The original frozen verifier completed normally.",
+    "source": "phase12_v2/PHASE12_VERIFICATION_FAILURE_RECORD.md",
+    "source_locator": "Actual failure",
+    "source_sha256": "7489f27b84c09fb458f73e5f275d4de5a40aa8d3fff83c76e8e16b2bb987013e",
+    "phase": "12",
+    "denominator": "one original verifier attempt",
+    "evaluation_population": "prospective final",
+    "result": "FALSE",
+    "limitation": "Prohibited assertion; forensic confirmation does not retroactively change original status.",
+    "allowed_contexts": [],
+    "publication_permission": "Never as an affirmative claim",
+    "status": "false/prohibited"
+  }
+]

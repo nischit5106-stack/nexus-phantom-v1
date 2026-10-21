@@ -1,0 +1,9 @@
+family,severity,shifted,member_f1,target_f1,control_burden,source_line
+actor_dropout,0.2500,n/a,0.7687,0.8968,0.0,35
+target_dropout,0.2500,n/a,0.8757,0.7512,0.0079,37
+event_thinning,0.2500,n/a,0.8981,0.899,0.0079,39
+jitter,30,n/a,0.9167,0.9167,0.0238,41
+prefix,0.7500,n/a,0.754,0.754,0.0159,43
+multi_campaign,4,n/a,1.0,1.0,0.0,45
+overlap,0.2500,False,0.8571,1.0,0.0,48
+overlap,0.2500,True,0.3636,0.3636,1.0,49

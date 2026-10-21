@@ -1,0 +1,5 @@
+# NEXUS identity provenance
+
+NEXUS is the parent identity; PHANTOM is its flagship research project. On 21 October 2026, the author confirmed that the supplied concept boards and selected logo reference were created specifically for NEXUS under his direction. The author selected the broad ribbon N from a supplied reference during Phase 10 and explicitly requested its incorporation in the final Phase 13 portfolio, dashboard and appropriate academic materials. The saved master was produced through AI-assisted extraction from that reference; monochrome academic variants are simplified vector derivatives. Phase 13 reuses these saved assets rather than generating new scientific artwork.
+
+Use the full-color mark on the dark portfolio/dashboard and a restrained monochrome lockup in the archival report. The conference manuscript keeps standard academic typography. Source concept boards/reference screenshots are not redistributed. The author’s final release approval governs project use; no independent trademark clearance, exclusive originality or blanket standalone reuse license is asserted.

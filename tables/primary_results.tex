@@ -1,0 +1,11 @@
+\begin{table}[tbp]\centering\small
+\caption{Primary evidence by stage. Populations, tasks and denominators are distinct; no overall accuracy score is implied. Final metrics are confirmed from frozen outputs, with the original verifier failure preserved.}
+\begin{tabularx}{\linewidth}{@{}p{.10\linewidth}p{.23\linewidth}p{.16\linewidth}p{.21\linewidth}X@{}}\toprule
+Evidence stage & Population & Task & Result & Interpretation limit\\\midrule
+Phase 4.12 & May 2022 ListenBrainz; 4,032 listeners; 42 groups; 378 pairs & External controlled detection & AUC 1.000; 378/378 treatments; 0/378 controls & Synthetic intervention labels; consumed external validation.\\
+Phase 5.1 & Two historical holdout blocks; 84 pairs; 168 parents & Graph reconstruction & Member/target F1 0.9167; 0/84 controls & Small internal holdout; no external graph validation.\\
+Phase 7 & Six reused development blocks; 12 moderate worlds per shock family & Hard-negative robustness & Popularity/release shocks: 12/12 alerts each; shifted-overlap F1 0.3636 & Overall moderate operating region failed.\\
+Phase 9.2 & 321 synthetic worlds; 480 candidates; 477 parents & Investigation development & 416/480 candidates reviewable; 327/477 parents covered & Coverage differs by denominator; analyst utility unmeasured.\\
+Phase 12 & September 2026 ListenBrainz; 4,032 listeners; 42 groups; 378 pairs & Prospective sealed detection & Block/pooled AUC 1.000; 378/378 treatments; 0/378 controls & Controlled labels; forensic confirmation after receipt failure.\\
+\bottomrule\end{tabularx}\label{tab:results}
+\end{table}

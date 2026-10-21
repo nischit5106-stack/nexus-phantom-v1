@@ -1,0 +1,62 @@
+[
+  {
+    "figure": "01_architecture",
+    "kind": "verified conceptual diagram",
+    "source": "Phase 7.2 operating contract; Phase 9.2; Phase 10",
+    "alt_text": "Six steps from audited events to review and external provenance. Enforcement is outside the system."
+  },
+  {
+    "figure": "02_counterfactual",
+    "kind": "verified conceptual diagram",
+    "source": "Phase 4.8-4.12 reports",
+    "alt_text": "Paired interventions change cross-actor assignment while preserving declared actor marginals; pairs share histories."
+  },
+  {
+    "figure": "03_local_null",
+    "kind": "formula schematic",
+    "source": "phase4_11/src/local_null.py; Phase 4.11 report",
+    "alt_text": "Observed coactivity is centered by its conditional permutation median and scaled by 1.4826 times MAD. Threshold three is not a probability."
+  },
+  {
+    "figure": "04_reconstruction",
+    "kind": "illustrative graph schematic; no observed nodes",
+    "source": "phase5_1/src/pooling.py",
+    "alt_text": "Two illustrative components are pooled against a fixed candidate-family null, then linked by target and period overlap. No actual user data shown."
+  },
+  {
+    "figure": "05_external_validation",
+    "kind": "frozen aggregate data",
+    "source": "Phase 4.12 validation/frozen_results.json; claims C06-C13",
+    "alt_text": "All 378 treatment worlds alerted and none of 378 controls alerted. These dependent paired worlds come from 42 listener groups, with synthetic labels."
+  },
+  {
+    "figure": "06_robustness",
+    "kind": "frozen report table transcription",
+    "source": "Phase 7 frozen moderate gates; tables/robustness.csv",
+    "alt_text": "Reconstruction survives several separate perturbations but shifted overlap fails with F1 0.3636 and every control alerting. Shocks also fail."
+  },
+  {
+    "figure": "07_causal_twins",
+    "kind": "verified conceptual diagram",
+    "source": "Phase 7.1 identifiability report; C22",
+    "alt_text": "Two hidden causal stories yield identical observed events, so any event-only detector with cause-independent randomness has the same output distribution."
+  },
+  {
+    "figure": "08_investigation",
+    "kind": "verified conceptual diagram",
+    "source": "Phase 7.2 contract; Phase 9.2 report",
+    "alt_text": "Support status and alternatives are retained in complete evidence packets and equal-priority equivalence sets for review."
+  },
+  {
+    "figure": "09_dashboard",
+    "kind": "public-demo screenshot; unchanged historical synthetic evidence",
+    "source": "portfolio/screenshots/dashboard-academic-overview.png",
+    "alt_text": "Academic Observatory with frozen synthetic hypotheses, explicit causal uncertainty and missing provenance. Screenshot is engineering illustration."
+  },
+  {
+    "figure": "10_prospective_final",
+    "kind": "frozen aggregate plot",
+    "source": "tables/final_evaluation_aggregates.json",
+    "alt_text": "All 378 controlled treatments alert and no controls alert; 42 groups each have nine worlds per arm. Real histories with constructed labels."
+  }
+]
