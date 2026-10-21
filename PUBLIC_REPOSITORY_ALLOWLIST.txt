@@ -1,4 +1,4 @@
-# Exact public repository allowlist. Final author authorization is still required.
+# Exact author-approved public repository allowlist. Rights reserved; existing exclusions remain in force.
 .gitignore
 CITATION.cff
 CITATION.md

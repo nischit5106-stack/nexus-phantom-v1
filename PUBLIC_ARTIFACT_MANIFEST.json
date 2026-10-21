@@ -1,5 +1,5 @@
 {
-  "scope": "Prepared public subset; rights reserved and notices retained. Not published. Manifest omits its own hash.",
+  "scope": "Author-approved public research release; rights reserved and notices retained. Manifest omits its own hash.",
   "files": [
     {
       "path": ".gitignore",
@@ -8,8 +8,8 @@
     },
     {
       "path": "CITATION.cff",
-      "bytes": 802,
-      "sha256": "dfe2a0e06f9e93db5925fff485b84ab3f1168d41a992e08b06a0520763763a39"
+      "bytes": 780,
+      "sha256": "cda32c91b0c63aed9091d1576dc5bf30e341953776a0d9341e1b5de13fe77a09"
     },
     {
       "path": "CITATION.md",
@@ -18,23 +18,23 @@
     },
     {
       "path": "LICENSE.txt",
-      "bytes": 602,
-      "sha256": "889024923e0de383ed65f2517391384523e85b637098eef50c1b742385d3cae4"
+      "bytes": 598,
+      "sha256": "97b8de74e671d5727098a44de53c08434eec627234cb303af7dc16d2e489bfe5"
     },
     {
       "path": "PUBLIC_RELEASE_NOTICE.md",
-      "bytes": 3164,
-      "sha256": "3f802ed4442b97c0baf849603abefbae2eee235ebcf6ff8e38947a29d9abf1b2"
+      "bytes": 3294,
+      "sha256": "ecc25baa7c30e95d50aa5dbec3a3f654eda34416467856a6bd296732f900b269"
     },
     {
       "path": "PUBLIC_REPOSITORY_ALLOWLIST.txt",
-      "bytes": 6750,
-      "sha256": "6321f3dcfe62cf7c2200842c61e32e1d4b6772610bc9c97cbc891f2e111db7a1"
+      "bytes": 6774,
+      "sha256": "c1fa126b1045c9a8e53d3ecc6584789c98fe0aa956dd78281b01d499240a919c"
     },
     {
       "path": "README.md",
-      "bytes": 9326,
-      "sha256": "644b67ed08d762c0d3a7a6a93dad2d897a112a50fc8ab29b350f46965aac1dd7"
+      "bytes": 9409,
+      "sha256": "6c033ac9330c19bc3e813d01c334108f9b13c3035ad4f0dea6f08724b1abd6e2"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -88,8 +88,8 @@
     },
     {
       "path": "docs/FINAL_REPRODUCIBILITY_STATEMENT.md",
-      "bytes": 1611,
-      "sha256": "e75e02a5867fb211827bcbdc45fb0af2b3e3ddcd278e7fc290b31192f8657891"
+      "bytes": 1612,
+      "sha256": "e360c489bf0f5ef6c875bbd829e5acb0d1912c852757003a5d1efb3a38ada1fa"
     },
     {
       "path": "docs/FINAL_VERSION_MAP.md",
@@ -118,13 +118,13 @@
     },
     {
       "path": "docs/PHANTOM_RIGHTS_RELEASE_MATRIX.md",
-      "bytes": 7274,
-      "sha256": "db1e70f529c78b41b03f4b761e991d3238557557fda42003491192d759119c52"
+      "bytes": 7405,
+      "sha256": "e0cdfee7fd986417d99bbb3b8d9eac2ad4cce1028f66419ba68470c3607366fa"
     },
     {
       "path": "docs/PROJECT_PAGE_SPECIFICATION.md",
-      "bytes": 1426,
-      "sha256": "71555a7e67d333ece11298da3dd0bb52befc886fd0768f6aafa1a19114d0f862"
+      "bytes": 1562,
+      "sha256": "fca8f274fe63389e2056966c14b7126836134d2574c406b4f632949276d80c49"
     },
     {
       "path": "docs/SANITIZED_DEMO_SPECIFICATION.md",
@@ -133,8 +133,8 @@
     },
     {
       "path": "docs/SEO_RELEASE_CONFIGURATION.md",
-      "bytes": 1645,
-      "sha256": "240378e3ccbcc95486881d4ae49cbd0f40fb70b3ad58015123ae9cc7f4cf0b92"
+      "bytes": 1986,
+      "sha256": "88f0d0a6abad682f4296fb29ef747e3809af81ff379c86a8bad59c0a92d4c15b"
     },
     {
       "path": "docs/SOURCE_REPRODUCTION.md",
@@ -338,8 +338,8 @@
     },
     {
       "path": "papers/FINAL_REPRODUCIBILITY_STATEMENT.md",
-      "bytes": 1611,
-      "sha256": "e75e02a5867fb211827bcbdc45fb0af2b3e3ddcd278e7fc290b31192f8657891"
+      "bytes": 1612,
+      "sha256": "e360c489bf0f5ef6c875bbd829e5acb0d1912c852757003a5d1efb3a38ada1fa"
     },
     {
       "path": "papers/PHANTOM_Conference_Manuscript_FINAL_v1/ACM-Reference-Format.bst",
@@ -348,8 +348,8 @@
     },
     {
       "path": "papers/PHANTOM_Conference_Manuscript_FINAL_v1/TEMPLATE_PROVENANCE.md",
-      "bytes": 3326,
-      "sha256": "c4d1b48ee24629a23f2622409a80e7e7ee8cee53657d2ab96cd4f33042848232"
+      "bytes": 3320,
+      "sha256": "a1c4e8a1238b9219354f79888d2580a461a08bda4cb9bb5ea5e8d785bd818a9f"
     },
     {
       "path": "papers/PHANTOM_Conference_Manuscript_FINAL_v1/main.tex",
@@ -488,8 +488,8 @@
     },
     {
       "path": "site/about/index.html",
-      "bytes": 4429,
-      "sha256": "75e6b5e08f3093e0642c6bf731f0d25f7c5694ae1a67c5a332736e1201c6b95f"
+      "bytes": 4418,
+      "sha256": "f9b352b2d35310359014c15944ed489587d28e7dc69e7337cc4f5a574affb612"
     },
     {
       "path": "site/assets/01_architecture.svg",
@@ -618,13 +618,13 @@
     },
     {
       "path": "site/index.html",
-      "bytes": 4282,
-      "sha256": "7410ffce15d015234103a54c6318c321635f40382fd53fceca47dadbaf74943a"
+      "bytes": 4271,
+      "sha256": "d8b3cac74e560ef8337ef9f16602879178be45a48e259f3eaa42d6d1a518c5ea"
     },
     {
       "path": "site/publications/phantom/index.html",
-      "bytes": 5357,
-      "sha256": "63e7c1afeef0ec647bf87e8f2bb6276a645543f2588a480dc55cef91660c0c8b"
+      "bytes": 5501,
+      "sha256": "93372ed8a5a066c0f2fc1d605ef77b581d258107f11c180850fde3d9f93bdf72"
     },
     {
       "path": "site/research/phantom/demo/adapter.js",
@@ -833,8 +833,8 @@
     },
     {
       "path": "site/research/phantom/index.html",
-      "bytes": 12782,
-      "sha256": "e4afb78877246777613e28dff468383547a300b734333f105a3013464d5bcae8"
+      "bytes": 12771,
+      "sha256": "02f5c7112feb0d96e12abc74260978323699c3e227d5899542ee0df8909b4431"
     },
     {
       "path": "site/robots.txt",

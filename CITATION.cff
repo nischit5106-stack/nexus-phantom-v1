@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "Please cite the independent PHANTOM technical report."
 title: "PHANTOM: Benchmark Validity and Causal Limits in Coordinated Listening"
 type: software
-version: "1.0-publication-candidate"
+version: "1.0"
 abstract: "Publication and synthetic demonstration package for frozen PHANTOM v1."
 authors:
   - family-names: "Kumar"

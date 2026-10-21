@@ -2,7 +2,7 @@
 
 Nischit Girish Kumar · NEXUS Research Initiative — Independent Research
 
-This is a local release candidate. Publication, deployment, indexing and submission require the author's explicit final approval. Author-created PHANTOM materials remain rights reserved under LICENSE.txt; this is not an MIT, Apache, BSD or Creative Commons grant. Third-party components retain their own terms.
+PHANTOM v1 is the author-approved public research release, published through the public GitHub repository and GitHub Pages site. Search indexing remains intentionally disabled; search-engine submission and manuscript submission require separate author approval. Author-created PHANTOM materials remain rights reserved under LICENSE.txt; this is not an MIT, Apache, BSD or Creative Commons grant. Third-party components retain their own terms.
 
 The released PHANTOM implementation consists of original project code developed for PHANTOM under Nischit Girish Kumar's direction, with third-party dependencies used under their respective licenses. Derived or third-party components are separately identified and attributed. Here, released implementation means the enumerated teaching, presentation and publication utilities; it does not mean the full historical research core. This provenance statement is based on the inspected project records and is not a claim of entirely manual coding or exclusive ownership of every generated element.
 
@@ -12,7 +12,7 @@ No raw listening histories, restricted datasets, participant/exclusion mappings,
 
 The NEXUS reference identity was created specifically for the project under the author's direction, as confirmed on 21 October 2026. The saved production mark uses the documented AI-assisted extraction and vector-derivative process. No registered trademark, exclusive trademark ownership or institutional sponsorship is claimed.
 
-The static site has no analytics, telemetry, cookies, third-party trackers, remote font downloads or embedded external services. The demo can remember motion and presentation choices in browser local storage (`phantom-motion`, `phantom-presentation`); these are local preferences and are not transmitted. Future hosting may keep access logs under the selected host's policies; hosting is not configured here.
+The static site has no analytics, telemetry, cookies, third-party trackers, remote font downloads or embedded external services. The demo can remember motion and presentation choices in browser local storage (`phantom-motion`, `phantom-presentation`); these are local preferences and are not transmitted. The public portfolio is hosted on GitHub Pages; the host may keep access logs under its own policies.
 
 Use a disposable working copy for reproduction commands: figure, PDF and metadata builders intentionally replace their generated outputs within that copy. Package installation obtains external dependencies from their providers; Tectonic may fetch its public TeX bundle. No embedded credentials or private service access is required for the public teaching/material builds.
 

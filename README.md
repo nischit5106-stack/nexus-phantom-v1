@@ -9,7 +9,7 @@ Independent Technical Report · October 2026
 
 PHANTOM studies when listening-event evidence supports a claim about coordination and when its interpretation fails. It audits benchmark shortcuts, detects conditional relational surprise, reconstructs bounded campaign structure, and preserves unresolved causes for investigation.
 
-This is a prepared local release candidate. It has not been published, submitted or indexed. The report is independent research and is not peer reviewed. Public release requires the author's explicit final authorization.
+PHANTOM v1 is the author-approved public research release, with rights reserved. The report is independent research and is not peer reviewed. The GitHub Pages site retains noindex settings; search-engine submission and manuscript submission remain subject to separate author authorization.
 
 ## What to remember
 
@@ -109,7 +109,7 @@ The full scientific core, raw histories, protected truth and internal orchestrat
 
 The intervention and selector are narrow; ordinary-stream support coverage is unknown. Worlds share groups and constructed arms. The graph holdout is small, stress sets are consumed, matched published-method comparisons are absent, and analyst/deployment outcomes are unmeasured. No SOTA, verified fraud accuracy, causal probability, organizer identification or production-readiness claim is made.
 
-See [rights and release matrix](docs/PHANTOM_RIGHTS_RELEASE_MATRIX.md). Author-created material is supplied with rights reserved pending an explicit reuse-license decision; this candidate must not be described as permissively licensed open source. Third-party components retain their notices. Code licensing does not settle data licensing. No raw Deezer or ListenBrainz histories or protected final records are included.
+See [rights and release matrix](docs/PHANTOM_RIGHTS_RELEASE_MATRIX.md). Author-created material is supplied with rights reserved pending an explicit reuse-license decision; this public research release must not be described as permissively licensed open source. Third-party components retain their notices. Code licensing does not settle data licensing. No raw Deezer or ListenBrainz histories or protected final records are included.
 
 ## Citation and authorship
 

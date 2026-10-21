@@ -2,11 +2,11 @@
 
 ## Included template file
 
-The public source candidate includes only `ACM-Reference-Format.bst` from the ACM template distribution. Its unchanged header credits Nelson H. F. Beebe, Boris Veytsman and Gerald Murray and expressly identifies its license as **public domain**. The header records bibliography-style version 2.2, acmart-version 2.19, dated August 12, 2026. All embedded notices are preserved.
+The public source package includes only `ACM-Reference-Format.bst` from the ACM template distribution. Its unchanged header credits Nelson H. F. Beebe, Boris Veytsman and Gerald Murray and expressly identifies its license as **public domain**. The header records bibliography-style version 2.2, acmart-version 2.19, dated August 12, 2026. All embedded notices are preserved.
 
 SHA-256 of the included bibliography style: `4342d27456645567ef1a027f6474e894715bc31d468f040142fa54540440ad04`.
 
-`main.tex` and `references.bib` are PHANTOM manuscript sources, not an upstream template distribution. The public candidate does not distribute `acmart.cls`, `acmart.dtx`, `acmart.ins`, upstream README/sample files, or an `upstream-template/` directory. No Tectonic executable or TeX bundle is included.
+`main.tex` and `references.bib` are PHANTOM manuscript sources, not an upstream template distribution. The public package does not distribute `acmart.cls`, `acmart.dtx`, `acmart.ins`, upstream README/sample files, or an `upstream-template/` directory. No Tectonic executable or TeX bundle is included.
 
 ## External class dependency and rebuilding
 
@@ -18,6 +18,6 @@ Before running `python3 scripts/build_papers.py` from the repository root, obtai
 
 ## License and publication status
 
-CTAN identifies acmart as copyright 2016–2026 Association for Computing Machinery, under LPPL 1.3; consult the [LaTeX Project Public License](https://www.latex-project.org/lppl/lppl-1-3c/) and the notices in the complete upstream distribution. The generated class header requires its original source to accompany redistribution. The public candidate therefore omits the class rather than redistributing it without that source. The bibliography style's explicit public-domain notice is retained separately. These third-party terms do not license PHANTOM code or source data.
+CTAN identifies acmart as copyright 2016–2026 Association for Computing Machinery, under LPPL 1.3; consult the [LaTeX Project Public License](https://www.latex-project.org/lppl/lppl-1-3c/) and the notices in the complete upstream distribution. The generated class header requires its original source to accompany redistribution. The public package therefore omits the class rather than redistributing it without that source. The bibliography style's explicit public-domain notice is retained separately. These third-party terms do not license PHANTOM code or source data.
 
 The manuscript uses `sigconf,nonacm`, with no invented DOI, conference venue or copyright transfer. It remains an independent manuscript, without ACM acceptance or endorsement. Check the target venue's current formatting, anonymity and AI policies before any future submission.
