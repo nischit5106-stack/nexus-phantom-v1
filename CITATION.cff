@@ -2,19 +2,25 @@ cff-version: 1.2.0
 message: "Please cite the independent PHANTOM technical report."
 title: "PHANTOM: Benchmark Validity and Causal Limits in Coordinated Listening"
 type: software
-version: "1.0"
+version: "1.0.0"
 abstract: "Publication and synthetic demonstration package for frozen PHANTOM v1."
+doi: "10.5281/zenodo.23607584"
+repository-code: "https://github.com/nischit5106-stack/nexus-phantom-v1"
+url: "https://nischit5106-stack.github.io/research/phantom/"
 authors:
-  - family-names: "Kumar"
-    given-names: "Nischit Girish"
+  - family-names: "Girish Kumar"
+    given-names: "Nischit"
     affiliation: "NEXUS Research Initiative — Independent Research"
 preferred-citation:
   type: report
   title: "PHANTOM: Benchmark Validity and Causal Limits in Coordinated Listening"
   authors:
-    - family-names: "Kumar"
-      given-names: "Nischit Girish"
+    - family-names: "Girish Kumar"
+      given-names: "Nischit"
+      affiliation: "NEXUS Research Initiative — Independent Research"
   year: 2026
+  doi: "10.5281/zenodo.23607584"
+  url: "https://nischit5106-stack.github.io/publications/phantom/"
   institution:
     name: "NEXUS Research Initiative — Independent Research"
-  notes: "Final v1. Independent manuscript; not peer reviewed. No DOI assigned."
+  notes: "PHANTOM v1.0.0 research release. Independent Technical Report; not peer reviewed."

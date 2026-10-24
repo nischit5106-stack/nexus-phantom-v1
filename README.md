@@ -2,6 +2,8 @@
 
 ![NEXUS Research Initiative](figures/brand/nexus-lockup-light-mono.svg)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23607584.svg)](https://doi.org/10.5281/zenodo.23607584)
+
 **Benchmark Validity and Causal Limits in Coordinated Listening**  
 Nischit Girish Kumar  
 NEXUS Research Initiative — Independent Research  
@@ -9,7 +11,9 @@ Independent Technical Report · October 2026
 
 PHANTOM studies when listening-event evidence supports a claim about coordination and when its interpretation fails. It audits benchmark shortcuts, detects conditional relational surprise, reconstructs bounded campaign structure, and preserves unresolved causes for investigation.
 
-PHANTOM v1 is the author-approved public research release, with rights reserved. The report is independent research and is not peer reviewed. The GitHub Pages site retains noindex settings; search-engine submission and manuscript submission remain subject to separate author authorization.
+PHANTOM v1 is the author-approved public research release, with rights reserved. The scientific system is frozen. The report is independent research and is not peer reviewed.
+
+Start with the [PHANTOM research page at NEXUS](https://nischit5106-stack.github.io/research/phantom/), the primary human-facing project page. Explore the [synthetic demo](https://nischit5106-stack.github.io/research/phantom/demo/) or [publications and downloads](https://nischit5106-stack.github.io/publications/phantom/). The [Zenodo record](https://doi.org/10.5281/zenodo.23607584) is the permanent scholarly and citation home; this repository and its [v1.0.0 release](https://github.com/nischit5106-stack/nexus-phantom-v1/releases/tag/v1.0.0) provide the technical release record.
 
 ## What to remember
 
@@ -88,7 +92,7 @@ Obtain Deezer and ListenBrainz data independently from their official sources. F
 
 ## Repository map
 
-- `papers/`: final PDFs and editable sources; independent manuscripts.
+- `papers/`: publication sources and preserved paper files; current approved PDFs are linked below.
 - `figures/`, `tables/`: vector diagrams and frozen aggregates, with provenance.
 - `references/`: verified bibliography and citation ledger.
 - `demo/`, `tests/`: invented teaching example and bounded public-material checks.
@@ -100,10 +104,11 @@ The full scientific core, raw histories, protected truth and internal orchestrat
 
 ## Papers
 
-- [Technical report](papers/PHANTOM_Technical_Report_FINAL_v1.pdf)
-- [Conference manuscript](papers/PHANTOM_Conference_Manuscript_FINAL_v1.pdf)
-- [Supplement](papers/PHANTOM_Supplementary_Appendix_FINAL_v1.pdf)
-- [One-page research brief](papers/PHANTOM_Industry_Research_Brief_FINAL_v1.pdf)
+- [Technical Report](https://github.com/nischit5106-stack/nexus-phantom-v1/releases/download/v1.0.0/PHANTOM_Technical_Report.pdf)
+- [Research Manuscript](https://github.com/nischit5106-stack/nexus-phantom-v1/releases/download/v1.0.0/PHANTOM_Research_Manuscript.pdf)
+- [Supplementary Appendix](https://github.com/nischit5106-stack/nexus-phantom-v1/releases/download/v1.0.0/PHANTOM_Supplementary_Appendix.pdf)
+
+The three approved PDFs are also preserved together in the [canonical Zenodo record](https://doi.org/10.5281/zenodo.23607584).
 
 ## Limits and rights
 
@@ -113,6 +118,8 @@ See [rights and release matrix](docs/PHANTOM_RIGHTS_RELEASE_MATRIX.md). Author-c
 
 ## Citation and authorship
 
-Kumar, N. G. (2026). *PHANTOM: Benchmark Validity and Causal Limits in Coordinated Listening* (Final v1). NEXUS Research Initiative, Independent Technical Report. See [citation variants](CITATION.md) and `CITATION.cff`. No DOI or conference acceptance is claimed.
+Girish Kumar, N. (2026). *PHANTOM: Benchmark Validity and Causal Limits in Coordinated Listening*. NEXUS Research Initiative, Independent Technical Report. [https://doi.org/10.5281/zenodo.23607584](https://doi.org/10.5281/zenodo.23607584). Machine-readable citation metadata is available in [CITATION.cff](CITATION.cff). No conference acceptance is claimed.
 
-Nischit Girish Kumar is the sole human author. AI-assisted tools supported selected engineering tasks, with minor assistance in documentation and manuscript preparation. Nischit Girish Kumar directed the research, system architecture, experimental design, validation, and final technical decisions and assumes responsibility for the work. NEXUS Research Initiative denotes independent research, not institutional sponsorship.
+AI-assisted tools were used extensively for implementation, debugging, analysis scripting, and verification, with minor assistance in manuscript editing. Nischit Girish Kumar originated and directed the research, designed the system architecture and experimental methodology, set the evaluation criteria, interpreted the results, and made the final scientific decisions. The manuscript was written and revised by Nischit Girish Kumar, who assumes responsibility for the work and its conclusions.
+
+Nischit Girish Kumar is the sole human author. NEXUS Research Initiative denotes independent research, not institutional sponsorship.
