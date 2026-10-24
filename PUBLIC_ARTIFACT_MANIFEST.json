@@ -23,8 +23,8 @@
     },
     {
       "path": "PUBLIC_RELEASE_NOTICE.md",
-      "bytes": 3294,
-      "sha256": "ecc25baa7c30e95d50aa5dbec3a3f654eda34416467856a6bd296732f900b269"
+      "bytes": 3374,
+      "sha256": "b93b6ad768bbd86a68321161111154ea3ce5f3aaaa3702a9d9cea74cb9e4d937"
     },
     {
       "path": "PUBLIC_REPOSITORY_ALLOWLIST.txt",
@@ -53,8 +53,8 @@
     },
     {
       "path": "docs/AI_ASSISTANCE_DISCLOSURE.md",
-      "bytes": 457,
-      "sha256": "8236167c40b9a8bf0aafcb5eefacb04c69a4b47488cf267d63e0801d1d065408"
+      "bytes": 661,
+      "sha256": "1896a2de21a4195142b98e1054233db429d314f55a047dbe5ed57f0fade4cce9"
     },
     {
       "path": "docs/ARCHITECTURE.md",
@@ -68,8 +68,8 @@
     },
     {
       "path": "docs/AUTHOR_CONTRIBUTION_STATEMENT.md",
-      "bytes": 549,
-      "sha256": "c7f295aa411454aa5d274e93fa7b6ee78e5d8122338220735cf4cd709f30fa47"
+      "bytes": 753,
+      "sha256": "d31abd927c4ed8a4f2be8b3056ca12b4f6ca93fee3e9c743fd78cd6bcc1222b6"
     },
     {
       "path": "docs/BRAND_PROVENANCE_PUBLIC.md",
@@ -133,8 +133,8 @@
     },
     {
       "path": "docs/SEO_RELEASE_CONFIGURATION.md",
-      "bytes": 1986,
-      "sha256": "88f0d0a6abad682f4296fb29ef747e3809af81ff379c86a8bad59c0a92d4c15b"
+      "bytes": 2114,
+      "sha256": "e6ef16052a9adfc9c951acf7a9652ba7a02b66d5f2bcee86d62455fccb7afe31"
     },
     {
       "path": "docs/SOURCE_REPRODUCTION.md",

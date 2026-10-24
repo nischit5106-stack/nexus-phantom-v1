@@ -2,7 +2,7 @@
 
 Nischit Girish Kumar · NEXUS Research Initiative — Independent Research
 
-PHANTOM v1 is the author-approved public research release, published through the public GitHub repository and GitHub Pages site. Search indexing remains intentionally disabled; search-engine submission and manuscript submission require separate author approval. Author-created PHANTOM materials remain rights reserved under LICENSE.txt; this is not an MIT, Apache, BSD or Creative Commons grant. Third-party components retain their own terms.
+PHANTOM v1 is the author-approved public research release, published through the public GitHub repository and GitHub Pages site. The live NEXUS website permits search crawling and includes canonical Technical Report citation metadata. Search submission is author-authorized; manuscript submission remains subject to separate author approval. Author-created PHANTOM materials remain rights reserved under LICENSE.txt; this is not an MIT, Apache, BSD or Creative Commons grant. Third-party components retain their own terms.
 
 The released PHANTOM implementation consists of original project code developed for PHANTOM under Nischit Girish Kumar's direction, with third-party dependencies used under their respective licenses. Derived or third-party components are separately identified and attributed. Here, released implementation means the enumerated teaching, presentation and publication utilities; it does not mean the full historical research core. This provenance statement is based on the inspected project records and is not a claim of entirely manual coding or exclusive ownership of every generated element.
 
